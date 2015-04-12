@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+        <meta name="keywords" content="{{.Site.Title}}, {{.Site.Subtitle}}">
+        <meta name="description" content="{{.Site.Subtitle}}">
+        <link rel="stylesheet" href="{{.Site.Root}}/css/global.css">
+        <link rel="stylesheet" href="{{.Site.Root}}/css/index.css">
+        <title>{{.Site.Title}}</title>
+    </head>
+    <body>
+        <div class="container">
+            {{if .TagName}}<a class="index" href="{{.Site.Root}}/">{{.Site.Title}}</a>{{end}}
+            <div class="main page">
+                <div class="header">
+                    {{if .TagName}}
+                        <div class="tag">{{.TagName}}</div>
+                        <div class="tag-sub">共{{.TagCount}}篇文章</div>
+                    {{else}}
+                        {{if .Site.Logo}}<div class="logo" style="background-image: url({{.Site.Logo}});"></div>{{end}}
+                        <div class="title">{{.Site.Title}}</div>
+                        <div class="subtitle">{{.Site.Subtitle}}</div>
+                    {{end}}
+                </div>
+                <ul class="article-list">
+                    {{range .Articles}}
+                    <li class="article">
+                        <a class="title" href="{{$.Site.Root}}/{{.Link}}">{{.Title}}</a>
+                        {{if .Topic}}<div class="thematic" style="background-image:url({{.Topic}});"></div>{{end}}
+                        <div class="preview">{{.Preview}}{{if .Preview}}...{{end}}</div>
+                        <div class="info">
+                            {{if .Author.Avatar}}<span class="avatar" style="background-image: url({{.Author.Avatar}});"></span>{{end}}
+                            {{if .Author.Name}}<a class="name" href="{{.Site.Root}}/about.{{.Author.Id}}.html">{{.Author.Name}}</a>{{end}}
+                            <span class="date" data-time="{{.Date}}">
+                                <span class="from"></span>
+                                {{if .Update}}<span class="date" data-time="{{.Update}}">（更新于<span class="from"></span>）</span>{{end}}
+                            </span>
+                            <span class="tags">
+                            {{range .Tags}}<a class="tag" href="{{$.Site.Root}}/tag/{{.}}/index.html">{{.}}</a>{{end}}
+                            </span>
+                        </div>
+                    </li>
+                    {{end}}
+                </ul>
+                <div class="page-nav">
+                    {{if .Prev}}<a class="prev" href="{{.Site.Root}}/{{.Prev}}">上一页</a>{{end}}
+                    {{if ne .Total 1}}<span class="nav">{{.Page}} / {{.Total}}</span>{{end}}
+                    {{if .Next}}<a class="next" href="{{.Site.Root}}/{{.Next}}">下一页</a>{{end}}
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="copyright">
+                {{.Site.Title}} ©
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>
+            </span>
+            <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
+        </div>
+    </body>
+    <script src="{{.Site.Root}}/js/jquery-1.11.2.min.js"></script>
+    <script src="{{.Site.Root}}/js/index.js"></script>
+</html>
