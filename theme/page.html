@@ -12,9 +12,13 @@
     </head>
     <body>
         <div class="container">
-            {{if .TagName}}<a class="index" href="{{.Site.Root}}/">{{.Site.Title}}</a>{{end}}
+            <a class="index" href="{{.Site.Root}}/">{{.Site.Title}}</a>
+            <ul class="menu">
+                <li class="menu-item"><a href="{{.Site.Root}}/archive.html">归档</a></li>
+                <li class="menu-item"><a href="{{.Site.Root}}/tag.html">标签</a></li>
+            </ul>
             <div class="main page">
-                <div class="header">
+                <div class="header site">
                     {{if .TagName}}
                         <div class="tag">{{.TagName}}</div>
                         <div class="tag-sub">共{{.TagCount}}篇文章</div>

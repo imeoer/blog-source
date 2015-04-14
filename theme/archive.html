@@ -17,11 +17,30 @@
                 <li class="menu-item"><a href="{{.Site.Root}}/archive.html">归档</a></li>
                 <li class="menu-item"><a href="{{.Site.Root}}/tag.html">标签</a></li>
             </ul>
-            <div class="main archives">
-                <div class="header">
-                    <div class="title">归档</div>
-                    <div class="subtitle">2006-01至2015-05，共4篇文章</div>
+            <div class="main archive">
+                <div class="site">
+                    <div class="title">{{.Site.Title}}</div>
+                    <div class="subtitle">{{.Site.Subtitle}}</div>
                 </div>
+                <div class="header">
+                    <span class="title">归档</span>
+                    <span class="subtitle">共{{.Total}}篇文章</span>
+                </div>
+                <ul class="archive-list">
+                    {{range .Archive}}
+                    <li class="archive-item">
+                        <div class="archive-year">{{.Year}}年</div>
+                        <ul class="article-list">
+                            {{range .Articles}}
+                            <li class="article-item">
+                                <span class="date">{{.Date}}</span>
+                                <a href="{{.Link}}">{{.Title}}</a>
+                            </li>
+                            {{end}}
+                        </ul>
+                    </li>
+                    {{end}}
+                </ul>
             </div>
         </div>
         <div class="footer">

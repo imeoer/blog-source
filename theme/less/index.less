@@ -8,6 +8,21 @@
     z-index: 1;
     font-weight: bold;
 }
+.menu {
+    margin: 15px;
+    position: absolute;
+    font-size: 18px;
+    z-index: 1;
+    font-weight: bold;
+    right: 0;
+    .menu-item {
+        float: right;
+        margin-right: 10px;
+        a {
+            color: #aaa;
+        }
+    }
+}
 a.name {
     color: #444;
 }
@@ -18,36 +33,40 @@ a.name {
     padding: 0 15px;
     min-height:100%;
     position:relative;
+    .site {
+        .logo {
+            margin: 0 auto;
+            width: 80px;
+            height: 80px;
+            border-radius: 80px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 1px #eee solid;
+        }
+        .title {
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 32px;
+            text-align: center;
+        }
+        .subtitle {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #bbb;
+            text-align: center;
+        }
+    }
     &.page {
-        padding-top: 70px;
+        padding-top: 100px;
         padding-bottom: 70px;
         .header {
             text-align: center;
-            .logo {
-                margin: 0 auto;
-                width: 80px;
-                height: 80px;
-                border-radius: 80px;
-                background-size: cover;
-                background-repeat: no-repeat;
-                border: 1px #eee solid;
-            }
             .tag {
                 margin-top: 30px;
                 font-weight: bold;
                 font-size: 32px;
             }
             .tag-sub {
-                margin-top: 10px;
-                font-size: 16px;
-                color: #bbb;
-            }
-            .title {
-                margin-top: 30px;
-                font-weight: bold;
-                font-size: 32px;
-            }
-            .subtitle {
                 margin-top: 10px;
                 font-size: 16px;
                 color: #bbb;
@@ -349,6 +368,75 @@ a.name {
         .content {
             margin-top: 80px;
             text-align: center;
+        }
+    }
+    &.archive, &.tag {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        a {
+            color: #000;
+        }
+        .site {
+            .title, .subtitle {
+                text-align: left;
+            }
+        }
+        .header {
+            padding-top: 60px;
+            .title {
+                margin-top: 30px;
+                font-weight: bold;
+                background-color: black;
+                color: white;
+                padding: 3px 5px;
+                // font-size: 32px;
+            }
+            .subtitle {
+                margin-top: 10px;
+                padding: 3px 5px;
+                // font-size: 16px;
+                color: #bbb;
+            }
+        }
+        .archive-list {
+            margin-top: 50px;
+            .archive-item {
+                margin: 40px 0;
+                .archive-year {
+                    font-size: 18px;
+                    margin: 15px 0;
+                    font-weight: bold;
+                }
+                .article-list {
+                    .article-item {
+                        margin-bottom: 10px;
+                        .date {
+                            color: #aaa;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .tag-list {
+            margin-top: 50px;
+            .tag-item {
+                margin: 40px 0;
+                .tag-name {
+                    font-size: 18px;
+                    margin: 15px 0;
+                    font-weight: bold;
+                }
+                .article-list {
+                    .article-item {
+                        margin-bottom: 10px;
+                        .date {
+                            color: #aaa;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
