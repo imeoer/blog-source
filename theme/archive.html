@@ -11,21 +11,21 @@
         <title>{{.Site.Title}}</title>
     </head>
     <body>
-        <div class="container">
+        <article class="container">
             <a class="index" href="{{.Site.Root}}/">{{.Site.Title}}</a>
             <ul class="menu">
                 <li class="menu-item"><a href="{{.Site.Root}}/archive.html">归档</a></li>
                 <li class="menu-item"><a href="{{.Site.Root}}/tag.html">标签</a></li>
             </ul>
-            <div class="main archive">
-                <div class="site">
-                    <div class="title">{{.Site.Title}}</div>
-                    <div class="subtitle">{{.Site.Subtitle}}</div>
-                </div>
-                <div class="header">
+            <article class="main archive">
+                <header class="site">
+                    <h1 class="title">{{.Site.Title}}</h1>
+                    <h2 class="subtitle">{{.Site.Subtitle}}</h2>
+                </header>
+                <header class="header">
                     <span class="title">归档</span>
                     <span class="subtitle">共{{.Total}}篇文章</span>
-                </div>
+                </header>
                 <ul class="archive-list">
                     {{range .Archive}}
                     <li class="archive-item">
@@ -41,9 +41,9 @@
                     </li>
                     {{end}}
                 </ul>
-            </div>
-        </div>
-        <div class="footer">
+            </article>
+        </article>
+        <footer class="footer">
             <span class="copyright">
                 {{.Site.Title}} ©
                 <script type="text/javascript">
@@ -51,7 +51,7 @@
                 </script>
             </span>
             <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
-        </div>
+        </footer>
     </body>
     <script src="{{.Site.Root}}/js/jquery-1.11.2.min.js"></script>
     <script src="{{.Site.Root}}/js/index.js"></script>

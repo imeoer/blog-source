@@ -44,6 +44,7 @@ a.name {
   border: 1px #eee solid;
 }
 .main .site .title {
+  margin: 0;
   margin-top: 30px;
   font-weight: bold;
   font-size: 32px;
@@ -54,6 +55,7 @@ a.name {
   font-size: 16px;
   color: #bbb;
   text-align: center;
+  font-weight: normal;
 }
 .main.page {
   padding-top: 100px;
@@ -63,11 +65,14 @@ a.name {
   text-align: center;
 }
 .main.page .header .tag {
+  margin: 0;
   margin-top: 30px;
   font-weight: bold;
   font-size: 32px;
 }
 .main.page .header .tag-sub {
+  margin: 0;
+  font-weight: normal;
   margin-top: 10px;
   font-size: 16px;
   color: #bbb;
@@ -89,6 +94,7 @@ a.name {
   margin-bottom: 5px;
   text-decoration: none;
   color: #4A4A4A;
+  display: block;
 }
 .main.page .article-list .article .thematic {
   color: #fff;
@@ -125,7 +131,7 @@ a.name {
   background-size: cover;
   background-repeat: no-repeat;
   float: left;
-  margin-top: -3px;
+  margin-top: 1px;
 }
 .main.page .article-list .article .name {
   margin-right: 10px;
@@ -193,6 +199,7 @@ a.name {
   padding-bottom: 120px;
 }
 .main.article .title {
+  margin: 0;
   font-size: 32px;
   font-weight: bold;
   color: #4A4A4A;
@@ -208,7 +215,7 @@ a.name {
   background-size: cover;
   background-repeat: no-repeat;
   float: left;
-  margin-top: -3px;
+  margin-top: 1px;
 }
 .main.article .info .name {
   margin-right: 5px;
@@ -228,17 +235,29 @@ a.name {
 .main.article .content {
   margin-top: 100px;
   font-size: 16px;
+  letter-spacing: 1px;
   line-height: 1.7;
+  text-align: justify;
+  text-justify: ideographic;
 }
-.main.article .content h1 {
+.main.article .content TO DO h1 {
   font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 .main.article .content h2 {
   font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.main.article .content h3 {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 .main.article .content p {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .main.article .content a {
   color: #1980e6;
@@ -307,6 +326,9 @@ a.name {
   max-width: 100%;
   border: 1px solid #eee;
   display: block;
+  opacity: 0.2;
+  transition: opacity 0.3s ease-in;
+  cursor: pointer;
 }
 .main.article .content .image-alt {
   text-align: center;
@@ -314,9 +336,6 @@ a.name {
   font-style: italic;
   margin-top: -10px;
   margin-bottom: 50px;
-}
-.main.article .content .fluidbox-overlay {
-  background-color: rgba(0, 0, 0, 0.95);
 }
 .main.article .author {
   margin-top: 36px;

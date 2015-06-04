@@ -11,30 +11,30 @@
         <title>{{.Site.Title}}</title>
     </head>
     <body>
-        <div class="container">
+        <article class="container">
             <a class="index" href="{{.Site.Root}}/">{{.Site.Title}}</a>
             <ul class="menu">
                 <li class="menu-item"><a href="{{.Site.Root}}/archive.html">归档</a></li>
                 <li class="menu-item"><a href="{{.Site.Root}}/tag.html">标签</a></li>
             </ul>
-            <div class="main page">
-                <div class="header site">
+            <article class="main page">
+                <header class="header site">
                     {{if .TagName}}
-                        <div class="tag">{{.TagName}}</div>
-                        <div class="tag-sub">共{{.TagCount}}篇文章</div>
+                        <h1 class="tag">{{.TagName}}</h1>
+                        <h2 class="tag-sub">共{{.TagCount}}篇文章</h2>
                     {{else}}
                         {{if .Site.Logo}}<div class="logo" style="background-image: url({{.Site.Logo}});"></div>{{end}}
-                        <div class="title">{{.Site.Title}}</div>
-                        <div class="subtitle">{{.Site.Subtitle}}</div>
+                        <h1 class="title">{{.Site.Title}}</h1>
+                        <h2 class="subtitle">{{.Site.Subtitle}}</h2>
                     {{end}}
-                </div>
+                </header>
                 <ul class="article-list">
                     {{range .Articles}}
                     <li class="article">
                         <a class="title" href="{{$.Site.Root}}/{{.Link}}">{{.Title}}</a>
                         {{if .Topic}}<div class="thematic" style="background-image:url({{.Topic}});"></div>{{end}}
-                        <div class="preview">{{.Preview}}{{if .Preview}}...{{end}}</div>
-                        <div class="info">
+                        <section class="preview">{{.Preview}}{{if .Preview}}...{{end}}</section>
+                        <section class="info">
                             {{if .Author.Avatar}}<span class="avatar" style="background-image: url({{.Author.Avatar}});"></span>{{end}}
                             {{if .Author.Name}}<a class="name" href="{{.Site.Root}}/about.{{.Author.Id}}.html">{{.Author.Name}}</a>{{end}}
                             <span class="date" data-time="{{.Date}}">
@@ -44,18 +44,18 @@
                             <span class="tags">
                             {{range .Tags}}<a class="tag" href="{{$.Site.Root}}/tag/{{.}}/index.html">{{.}}</a>{{end}}
                             </span>
-                        </div>
+                        </section>
                     </li>
                     {{end}}
                 </ul>
-                <div class="page-nav">
+                <section class="page-nav">
                     {{if .Prev}}<a class="prev" href="{{.Site.Root}}/{{.Prev}}">上一页</a>{{end}}
-                    {{if ne .Total 1}}<span class="nav">{{.Page}} / {{.Total}}</span>{{end}}
+                    {{if ne .Total 1}}<span class="nav">第{{.Page}}页 / 共{{.Total}}页</span>{{end}}
                     {{if .Next}}<a class="next" href="{{.Site.Root}}/{{.Next}}">下一页</a>{{end}}
-                </div>
-            </div>
-        </div>
-        <div class="footer">
+                </section>
+            </article>
+        </article>
+        <footer class="footer">
             <span class="copyright">
                 {{.Site.Title}} ©
                 <script type="text/javascript">
@@ -63,7 +63,7 @@
                 </script>
             </span>
             <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
-        </div>
+        </footer>
     </body>
     <script src="{{.Site.Root}}/js/jquery-1.11.2.min.js"></script>
     <script src="{{.Site.Root}}/js/index.js"></script>

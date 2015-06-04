@@ -1,5 +1,5 @@
 site:
-    title: 纸小墨の杂记 · 手帐
+    title: 猫叔の杂记 · 手帐
     subtitle: 代码，美术，音乐与二次元
     logo: -/images/avatar.jpg
     limit: 10
@@ -9,7 +9,7 @@ site:
 
 authors:
     me:
-        name: 纸小墨
+        name: 猫叔
         intro: 程序员，关注设计与二次元
         avatar: -/images/avatar.jpg
 
@@ -19,6 +19,8 @@ build:
         # 构建时将会复制以下目录/文件到 public 目录
         - theme/css
         - theme/js
+        - theme/favicon.ico
+        - theme/robots.txt
         - source/images
     publish: |
         # 执行 ink publish 命令将会执行以下脚本
