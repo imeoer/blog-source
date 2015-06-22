@@ -6,7 +6,7 @@ timeSince = (date) ->
         return interval + "年前"
     interval = Math.floor(seconds / 2592000)
     if interval > 1
-        return interval + "个月前"
+        return interval + "月前"
     interval = Math.floor(seconds / 86400)
     if interval > 1
         return interval + "天前"
@@ -15,7 +15,7 @@ timeSince = (date) ->
         return interval + "小时前"
     interval = Math.floor(seconds / 60)
     if interval > 1
-        return interval + "分钟前"
+        return interval + "分前"
     return Math.floor(seconds) + "秒前"
 
 $ () ->
@@ -39,6 +39,7 @@ $ () ->
         imageAlt = $item.prop('alt')
         $item.parent('a').after('<div class="image-alt">' + imageAlt + '</div>') if $.trim(imageAlt)
     # lazy load images
-    .unveil 200, () ->
-        $(@).load () ->
-            @style.opacity = 1
+    if $('img').unveil
+        $('img').unveil 200, () ->
+            $(@).load () ->
+                @style.opacity = 1
