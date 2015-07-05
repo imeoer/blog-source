@@ -6,6 +6,7 @@ site:
     theme: theme
     disqus: imeoer
     root: /blog
+    lang: zh
 
 authors:
     me:

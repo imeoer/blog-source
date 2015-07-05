@@ -11,18 +11,14 @@
     </head>
     <body>
         <article class="container">
-            <a class="index" href="{{.Site.Root}}/">{{.Site.Title}}</a>
-            <ul class="menu">
-                <li class="menu-item"><a href="{{.Site.Root}}/archive.html">存档</a></li>
-                <li class="menu-item"><a href="{{.Site.Root}}/tag.html">标签</a></li>
-            </ul>
+            {{template "header" .}}
             <article class="main page">
                 <header class="header site">
                     {{if .TagName}}
                         <h1 class="tag">{{.TagName}}</h1>
-                        <h2 class="tag-sub">{{.TagCount}} Articles</h2>
+                        <h2 class="tag-sub">{{.TagCount}} {{i18n "articles"}}</h2>
                     {{else}}
-                        {{if .Site.Logo}}<div class="logo" style="background-image: url({{.Site.Logo}});"></div>{{end}}
+                        {{if .Site.Logo}}<img class="logo" src="{{.Site.Logo}}" />{{end}}
                         <h1 class="title">{{.Site.Title}}</h1>
                         <h2 class="subtitle">{{.Site.Subtitle}}</h2>
                     {{end}}
@@ -30,15 +26,15 @@
                 <ul class="article-list">
                     {{range .Articles}}
                     <li class="article">
-                        <a class="title" href="{{$.Site.Root}}/{{.Link}}">{{.Title}}</a>
-                        {{if .Topic}}<div class="thematic" style="background-image:url({{.Topic}});"></div>{{end}}
-                        <section class="preview">{{.Preview}}{{if .Preview}}...{{end}}</section>
+                        <a class="title" href="{{$.Site.Root}}/{{.Link}}">{{if .Top}}<span class="top">[{{i18n "top"}}]</span>{{end}}{{.Title}}</a>
+                        {{if .Topic}}<div class="topic" style="background-image:url({{.Topic}});"></div>{{end}}
+                        {{if .Preview}}<section class="preview">{{.Preview}}...</section>{{end}}
                         <section class="info">
                             {{if .Author.Avatar}}<span class="avatar" style="background-image: url({{.Author.Avatar}});"></span>{{end}}
                             {{if .Author.Name}}<a class="name" href="{{.Site.Root}}/about.{{.Author.Id}}.html">{{.Author.Name}}</a>{{end}}
                             <span class="date" data-time="{{.Date}}">
                                 <span class="from"></span>
-                                {{if .Update}}<span class="date" data-time="{{.Update}}">(更新于 <span class="from"></span>)</span>{{end}}
+                                {{if .Update}}<span class="date" data-time="{{.Update}}">(<span class="from"></span> {{i18n "updated"}})</span>{{end}}
                             </span>
                             <span class="tags">
                             {{range .Tags}}<a class="tag" href="{{$.Site.Root}}/tag/{{.}}/index.html">{{.}}</a>{{end}}
@@ -48,21 +44,13 @@
                     {{end}}
                 </ul>
                 <section class="page-nav">
-                    {{if .Prev}}<a class="prev" href="{{.Site.Root}}/{{.Prev}}">Prev Page</a>{{end}}
+                    {{if .Prev}}<a class="prev" href="{{.Site.Root}}/{{.Prev}}">{{i18n "prev_page"}}</a>{{end}}
                     {{if ne .Total 1}}<span class="nav">{{.Page}} / {{.Total}}</span>{{end}}
-                    {{if .Next}}<a class="next" href="{{.Site.Root}}/{{.Next}}">Next Page</a>{{end}}
+                    {{if .Next}}<a class="next" href="{{.Site.Root}}/{{.Next}}">{{i18n "next_page"}}</a>{{end}}
                 </section>
             </article>
         </article>
-        <footer class="footer">
-            <span class="copyright">
-                {{.Site.Title}} ©
-                <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-                </script>
-            </span>
-            <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
-        </footer>
+        {{template "footer" .}}
     </body>
     <script src="{{.Site.Root}}/js/jquery-1.11.2.min.js"></script>
     <script src="{{.Site.Root}}/js/index.js"></script>
