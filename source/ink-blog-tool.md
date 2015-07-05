@@ -1,26 +1,26 @@
-title: 简洁的中文博客构建工具 —— 纸小墨（Ink）
+title: 简洁的静态博客构建工具 —— 纸小墨（InkPaper）
 date: 2015-03-01 17:00:00
-update: 2015-04-09 10:00:00
+update: 2015-06-21 10:00:00
 author: me
-topic: -/images/example.jpg
+topic: -/images/example.png
 tags:
     - 产品
     - 设计
     - 写作
     - 博客
-preview: 纸小墨（Ink）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。无依赖跨平台，配置简单，构建快速，支持多用户，默认主题简洁，对中文排版进行了优化
+preview: 纸小墨（InkPaper）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。无依赖跨平台，配置简单，构建快速，支持多用户，默认主题简洁，对文字排版进行了优化
 
 ---
 
 ## 纸小墨简介
 
-纸小墨（Ink）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。无依赖跨平台，配置简单，构建快速，支持多用户，默认主题简洁，对中文排版进行了优化。
+纸小墨（InkPaper）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。无依赖跨平台，配置简单，构建快速，支持多用户，默认主题简洁，对文字排版进行了优化。
+
+![纸小墨 - 简洁的静态博客构建工具](-/images/example.png)
 
 ### 开始上手
-- 下载并解压 [Ink](http://www.inkpaper.io/)，运行命令 `ink init blog`与`ink preview blog`
+- 下载并解压 [Ink](http://www.inkpaper.io/)，运行命令 `ink`
 - 使用浏览器访问 `http://localhost:8888` 预览
-
-> Tips: 若第一步失败，请尝试手动下载解压 [快速开始模板](http://www.inkpaper.io/release/ink_blog.zip)，然后在模板目录下运行命令 `ink preview`
 
 ### 配置网站
 编辑`config.yml`，使用如下格式
@@ -91,46 +91,17 @@ ink convert /path/_posts
 
 ### 源码编译
 
-1. Clone [Ink源码](https://github.com/InkProject/ink)
-2. 配置[GO](http://golang.org/doc/install)语言环境
-3. 安装交叉编译工具[gocx](https://github.com/laher/goxc)
-4. 安装构建工具[build](https://github.com/imeoer/build.go)
-5. 使用`build`命令自动编译
-6. 使用`build release`命令生成不同平台二进制
+本地运行
 
-## Markdown 样式支持
+1. 配置[GO](http://golang.org/doc/install)语言环境
+2. 运行命令`go get github.com/InkProject/ink`，编译并获取ink
+3. 运行命令`ink preview $GOPATH/src/github.com/InkProject/ink/template`，预览博客
 
-### 图片
+Docker构建
 
-![在这里对图片进行简短的描述](-/images/example.jpg)
-
-### 引用
-
-> Markdown 是一种轻量级标记语言，创始人为約翰·格魯伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
-—— [维基百科](http://www.wikiwand.com/zh/Markdown)
-
-### 代码
-``` python
-@requires_authorization
-def somefunc(param1='', param2=0):
-    r'''A docstring'''
-    if param1 > param2: # interesting
-        print 'Gre\'ater'
-    return (param2 - param1 + 1) or None
-
-class SomeClass:
-    pass
-
->>> message = '''interpreter
-... prompt'''
-```
-
-### 表格
-| 左对齐    |    右对齐| 居中 |
-| :-------- | -------:| :--: |
-| apple     |     100 |  1   |
-| banana    |     200 |  2   |
-| pear      |     300 |  3   |
+1. Clone源码 `git clone git@github.com:InkProject/ink.git`
+2. 源码目录下构建镜像`docker build -t ink .`
+3. 运行容器`docker run -p 8888:80 ink`
 
 ## 反馈建议
 
@@ -138,13 +109,11 @@ class SomeClass:
 
 ## 更新历史
 
+- [2015-06-04] 编译更多平台版本，增加标签与存档页
 - [2015-03-01] Beta版本，基础功能完成
 
 ## 更新计划
 
-- 中文排版深度优化
-- 更多Markdown格式支持
-- 图形界面支持
-- RSS订阅支持
+- 排版深度优化
 - 页面SEO优化
 - 扩展与插件支持
