@@ -10,6 +10,38 @@ preview: 近几年关注过的动画短片推荐，这些动画短片是独立�
 
 ---
 
-近几年关注过的动画短片推荐，这些动画短片是独立动画或一些实验性质作品，创作者不少是很有实力的年轻制作人...
+近几年关注过的动画短片推荐，这些动画短片是独立动画或一些实验性质作品，创作者不少是很有实力的年轻制作人。
 
-待更新
+### 爷爷的煤油灯
+
+[http://movie.douban.com/subject/6001038/](http://movie.douban.com/subject/6001038/)
+
+![](http://img4.douban.com/view/photo/raw/public/p872947339.jpg)
+
+### 文子的告白
+
+[http://movie.douban.com/subject/4135702/](http://movie.douban.com/subject/4135702/)
+
+### 阿茹茉妮
+
+[http://movie.douban.com/subject/24706479/](http://movie.douban.com/subject/24706479/)
+
+![](http://img4.douban.com/view/photo/raw/public/p2155856866.jpg)
+
+### 秋之鼓点
+
+![](http://img3.douban.com/view/photo/raw/public/p2236184680.jpg)
+
+### 阳光中的青时雨
+
+[http://movie.douban.com/subject/25739151/](http://movie.douban.com/subject/25739151/)
+
+![](http://img4.douban.com/view/photo/raw/public/p2153582689.jpg)
+
+### 勿忘蛛
+
+[http://movie.douban.com/subject/10574474/](http://movie.douban.com/subject/10574474/)
+
+### 猫的集会
+
+[http://movie.douban.com/subject/21945191/](http://movie.douban.com/subject/21945191/)
