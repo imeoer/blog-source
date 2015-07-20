@@ -17,7 +17,7 @@
                 <h1 class="title">{{.Title}}</h1>
                 <section class="info">
                     {{if .Author.Avatar}}<span class="avatar" style="background-image: url({{.Author.Avatar}});"></span>{{end}}
-                    {{if .Author.Name}}<a class="name" href="{{.Site.Root}}/about.{{.Author.Id}}.html">{{.Author.Name}}</a>{{end}}
+                    {{if .Author.Name}}<a class="name" href="http://www.inkpaper.io/blog/post/2015/01/01/resume.html">{{.Author.Name}}</a>{{end}}
                     <span class="date" data-time="{{.Date}}">
                         <span class="from"></span>
                         {{if .Update}}<span class="date" data-time="{{.Update}}">(<span class="from"></span> {{i18n "updated"}})</span>{{end}}
@@ -27,7 +27,7 @@
                 <article class="content">{{.Content}}</article>
                 <section class="author">
                     {{if .Author.Avatar}}<div class="avatar" style="background-image: url({{.Author.Avatar}});"></div>{{end}}
-                    <a class="name" href="{{.Site.Root}}/about.{{.Author.Id}}.html">{{.Author.Name}}</a>
+                    <a class="name" href="http://www.inkpaper.io/blog/post/2015/01/01/resume.html">{{.Author.Name}}</a>
                     <div class="intro">{{.Author.Intro}}</div>
                 </section>
                 <section class="recommend">

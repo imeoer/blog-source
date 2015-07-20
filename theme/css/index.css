@@ -335,7 +335,7 @@ a.name {
 }
 .main.article .content a {
   color: #1980e6;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .main.article .content a:hover {
   color: #0f4d8a;
