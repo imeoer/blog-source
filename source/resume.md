@@ -1,17 +1,15 @@
-title: 我的一份个人简历
+title: 个人简历
 date: 2015-01-01 12:00:00
-update: 2015-07-12 12:00:00
+update: 2015-08-16 12:00:00
 author: me
 tags:
     - 个人
     - 工作
-draft: false
-
 ---
 
 ## 联系方式
 
-- 手机：18911028975
+- 手机：18519108512
 - Email：imeoer@gmail.com
 
 ## 个人信息
@@ -21,7 +19,7 @@ draft: false
 - 工作年限：2年
 - 博客：http://www.inkpaper.io/blog/
 - Github：https://github.com/imeoer
-- 职位：Web前端(转后端中)/设计/全栈//以上远程
+- 职位：Web前端/后端/设计/远程
 - 城市：北京/成都
 
 ## 工作经历
@@ -30,15 +28,15 @@ draft: false
 
 - AWS服务PaaS平台IDE：Flex版本AWS云计算平台IDE中后期研发，负责前端界面组件，数据交互与复杂业务逻辑实现。
 
-- 一份难得的互联网创业公司实习经历，收获学习与团队协作，快速开发迭代经验。
+- 一份难得的互联网创业公司实习经历，收获学习，团队协作，快速开发迭代经验。
 
 ### VisualOps（2013年7月-至今）
 
-- [http://www.visualops.io/](http://www.visualops.io/) AWS与OpenStack服务PaaS大型Web SPA应用IDE的研发，参与前期框架搭建，参与主要功能实现与重构开发，后期视觉与交互设计。
+- [http://www.visualops.io/](http://www.visualops.io/) AWS与OpenStack服务大型SPA应用的研发，参与前期框架搭建，参与主要功能实现与重构开发，后期视觉与交互设计。
 
 - [http://www.cloudfielder.com/](http://www.cloudfielder.com/) CloudFielder云计算资源监控平台，项目Leader，负责全站UI设计，项目管理，自定义语法解析工作。
 
-- 较深入的AWS云平台开发与使用经验，了解云计算资源基础架构与DevOps运维，大型Web应用开发经验。
+- 较深入的AWS云平台开发与使用经验，了解云计算资源基础架构与DevOps运维，较大型Web应用开发经验。
 
 ## 业余经历
 

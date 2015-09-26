@@ -1,8 +1,8 @@
 title: An Elegant Static Blog Generator —— InkPaper
 date: 2015-03-01 19:00:00 +0800
-update: 2015-07-04 10:00:00 +0800
+update: 2015-09-23 10:00:00 +0800
 author: me
-topic: -/images/example-en.png
+cover: -/images/example-en.png
 tags:
     - Design
     - Writing
@@ -55,11 +55,11 @@ title: Article Title
 date: Year-Month-Day Hour:Minute:Second #Created Time，Support TimeZone, such as " +0800"
 update: Year-Month-Day Hour:Minute:Second #Updated Time，Optional，Support TimeZone, such as " +0800"
 author: AuthorID
-topic: Article Cover Path #Optional
+cover: Article Cover Path #Optional
 draft: true #If Draft，Optional
 top: Place article to top #Optional
 preview: Article Preview，Also use <!--more--> to split in body #Optional
-tag: #Optional
+tags: #Optional
     - Tag1
     - Tag2
 
@@ -108,6 +108,10 @@ Docker Build (Example)
 2. Build image `docker build -t ink .` in source directory
 3. Run container `docker run -p 8888:80 ink`
 
+## Theme
+
+- [https://github.com/Xdatk/ink-pure](https://github.com/Xdatk/ink-pure)
+
 ## License
 [CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -117,6 +121,7 @@ Docker Build (Example)
 
 ## Change Log
 
+- [2015-08-15] Bug fix, support RSS feed, improve theme
 - [2015-07-04] Bug fix, improve theme, support top, i18n, subtemplate
 - [2015-06-04] Build more platform, add archive and tag page
 - [2015-03-01] Release first beta version
@@ -133,3 +138,6 @@ Docker Build (Example)
 - [https://hyper.sh/blog/](https://hyper.sh/blog/)
 - [http://wangsiyi.net/](http://wangsiyi.net/)
 - [http://lubia.cn/](http://lubia.cn/)
+- [http://ikevin.in/](http://ikevin.in/)
+- [http://bluepi0j.me/](http://bluepi0j.me/)
+- [http://leftcoding.com/](http://leftcoding.com/)

@@ -1,8 +1,8 @@
 title: 简洁的静态博客构建工具 —— 纸小墨（InkPaper）
 date: 2015-03-01 18:00:00 +0800
-update: 2015-07-04 10:00:00 +0800
+update: 2015-09-23 10:00:00 +0800
 author: me
-topic: -/images/example.png
+cover: -/images/example.png
 tags:
     - Design
     - Writing
@@ -53,11 +53,11 @@ title: 文章标题
 date: 年-月-日 时:分:秒 #创建时间，可加时区如" +0800"
 update: 年-月-日 时:分:秒 #更新时间，可选，可加时区如" +0800"
 author: 作者ID
-topic: 题图链接 #可选
+cover: 题图链接 #可选
 draft: true #草稿，可选
 top: true #置顶文章，可选
 preview: 文章预览，也可在正文中使用<!--more-->分割 #可选
-tag: #可选
+tags: #可选
     - 标签1
     - 标签2
 
@@ -105,6 +105,10 @@ Docker构建（示例）
 2. 源码目录下构建镜像`docker build -t ink .`
 3. 运行容器`docker run -p 8000:80 ink`
 
+## 主题
+
+- [https://github.com/Xdatk/ink-pure](https://github.com/Xdatk/ink-pure)
+
 ## 开源协议
 [CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -114,6 +118,7 @@ Docker构建（示例）
 
 ## 更新历史
 
+- [2015-08-15] 一些Bug修复，新增RSS订阅支持，主题改善
 - [2015-07-04] 数项Bug修复与主题改善，支持置顶，多语言，子模板
 - [2015-06-04] 编译更多平台版本，增加标签与存档页
 - [2015-03-01] Beta版本，基础功能完成
@@ -130,3 +135,6 @@ Docker构建（示例）
 - [https://hyper.sh/blog/](https://hyper.sh/blog/)
 - [http://wangsiyi.net/](http://wangsiyi.net/)
 - [http://lubia.cn/](http://lubia.cn/)
+- [http://ikevin.in/](http://ikevin.in/)
+- [http://bluepi0j.me/](http://bluepi0j.me/)
+- [http://leftcoding.com/](http://leftcoding.com/)

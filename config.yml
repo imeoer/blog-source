@@ -5,8 +5,9 @@ site:
     limit: 10
     theme: theme
     disqus: imeoer
-    root: /blog
     lang: zh
+    root: /blog
+    url: http://www.inkpaper.io/blog/
 
 authors:
     me:
@@ -16,15 +17,15 @@ authors:
 
 build:
     port: 8000
+    # Copied files to public folder when build
     copy:
-        # Copied files to public folder when build
         - theme/css
         - theme/js
         - theme/favicon.ico
         - theme/robots.txt
         - source/images
+    # Excuted command when use 'ink publish'
     publish: |
-        # Excuted command when use 'ink publish'
         git add . -A
         git commit -m "update"
         git push origin

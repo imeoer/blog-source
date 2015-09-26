@@ -84,7 +84,6 @@ a.name {
 .main .site .logo {
   margin: 0 auto;
   width: 80px;
-  height: 80px;
   border-radius: 80px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,7 +148,7 @@ a.name {
   color: #ccc;
   margin-right: 5px;
 }
-.main.page .article-list .article .cover {
+.main.page .article-list .article .topic {
   color: #fff;
   width: 100%;
   height: 280px;
@@ -336,7 +335,7 @@ a.name {
 }
 .main.article .content a {
   color: #1980e6;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .main.article .content a:hover {
   color: #0f4d8a;
