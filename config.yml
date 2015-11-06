@@ -19,8 +19,7 @@ build:
     port: 8000
     # Copied files to public folder when build
     copy:
-        - theme/css
-        - theme/js
+        - theme/bundle
         - theme/favicon.ico
         - theme/robots.txt
         - source/images

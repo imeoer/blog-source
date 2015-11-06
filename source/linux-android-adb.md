@@ -80,5 +80,6 @@ List of devices attached
 - 在开机状态下执行`adb reboot bootloader`命令，在手机重启后进入Fastboot模式。
 - 在Fastboot模式下执行`fastboot devices`查看连接的手机。
 - 执行`fastboot flash recovery <recovery_path>.img`命令刷入Recovery。
+- 执行`fastboot boot <recovery_path>.img`命令免刷进入Recovery
 
 使用许多第三方的Recovery就可以试试各种刷机啦。

@@ -56,8 +56,8 @@ date: Year-Month-Day Hour:Minute:Second #Created Time，Support TimeZone, such a
 update: Year-Month-Day Hour:Minute:Second #Updated Time，Optional，Support TimeZone, such as " +0800"
 author: AuthorID
 cover: Article Cover Path #Optional
-draft: true #If Draft，Optional
-top: Place article to top #Optional
+draft: false #If Draft，Optional
+top: false #Place article to top, Optional
 preview: Article Preview，Also use <!--more--> to split in body #Optional
 tags: #Optional
     - Tag1
@@ -110,7 +110,8 @@ Docker Build (Example)
 
 ## Theme
 
-- [https://github.com/Xdatk/ink-pure](https://github.com/Xdatk/ink-pure)
+- Pure: [https://github.com/Xdatk/ink-pure](https://github.com/Xdatk/ink-pure)
+- Werttin: [https://github.com/Skimige/ink_Werttin](https://github.com/Skimige/ink_Werttin)
 
 ## License
 [CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
@@ -129,7 +130,6 @@ Docker Build (Example)
 ## Develop Plan
 
 - Improve Theme
-- Support RSS Feed
 - Extension And Plugin
 
 ## They are using
