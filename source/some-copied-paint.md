@@ -1,5 +1,6 @@
 title: 很久前的一些绘画临摹稿
 date: 2015-04-07 15:00:00
+update: 2016-08-15 10:00:00
 author: me
 topic: -/images/paint/konan.png
 tags:
@@ -35,4 +36,10 @@ preview: 初中开始喜欢上画画，从画给同学看的火柴小人剪纸�
 
 ![钢豆丁，铅笔稿](-/images/paint/fa.jpg)
 
-![中二度满满的知乎娘设计（努力原创）](-/images/paint/zhihu.jpg)
+![中二度满满的知乎娘设计](-/images/paint/zhihu.jpg)
+
+![起风了临摹线稿+水彩](-/images/paint/wind1.jpg)
+
+![](-/images/paint/wind2.jpg)
+
+![](-/images/paint/wind3.jpg)
