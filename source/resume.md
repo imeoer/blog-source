@@ -17,7 +17,7 @@ tags:
 - 严松/男/1990
 - 本科/西南科技大学/信息安全/软件工程
 - 工作年限：2年
-- 博客：http://www.inkpaper.io/blog/
+- 博客：http://www.chole.io/blog/
 - Github：https://github.com/imeoer
 - 职位：Web前端/后端/设计/远程
 - 城市：北京/成都
@@ -40,13 +40,13 @@ tags:
 
 ## 业余经历
 
-- Bamboo：撰写阅读内容发布平台：[设计简介](http://www.inkpaper.io/blog/post/2015/07/19/inkpaper-project.html)
-- InkPaper：静态博客构建工具，Golang，[http://www.inkpaper.io/](http://www.inkpaper.io/)
+- Bamboo：撰写阅读内容发布平台：[设计简介](http://www.chole.io/blog/chole-project.html)
+- InkPaper：静态博客构建工具，Golang，[http://www.chole.io/](http://www.chole.io/)
 - Build.go：简单任务自动化工具，Golang，[https://github.com/InkProject/build.go](https://github.com/InkProject/build.go)
 
 ## 大学经历
 
-- [http://www.inkpaper.io/blog/post/2015/02/01/college-works.html](http://www.inkpaper.io/blog/post/2015/02/01/college-works.html)
+- [http://www.chole.io/blog/college-works.html](http://www.chole.io/blog/college-works.html)
 - 幻境拨号精灵：校园宽带与路由拨号器，加密算法，VisualBasic
 - 任务魔法盒子：IFTTT桌面版，创意，UI与界面实现
 - ARP网络攻击工具：协议与抓包分析，VC++ MFC
