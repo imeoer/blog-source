@@ -47,7 +47,7 @@ tags:
 
 - [https://www.hyper.sh/](https://www.hyper.sh/) 主站视觉设计与开发，计费与支付环节设计与开发。
 
-- 技术栈：ES2015, React, Redux, Antd, PostCSS, Babel, Webpack。
+- 技术栈：Node.js, Koa, ES2015+, React, Redux, Antd, PostCSS, Babel, Webpack。
 
 ## 业余经历
 
@@ -73,7 +73,7 @@ tags:
 
 - 熟悉
   - JavaScript, Node.js, Golang
-  - Backbone.js, React, Vue.js及其生态系统
+  - Express.js, Koa, Backbone.js, React, Vue.js及其生态系统
 - 掌握
   - Linux/AWS/Docker
   - MongoDB, MySQL
