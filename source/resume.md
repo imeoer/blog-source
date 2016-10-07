@@ -1,6 +1,6 @@
 title: 个人简历
 date: 2015-01-01 12:00:00
-update: 2015-08-16 12:00:00
+update: 2016-10-07 12:00:00
 author: me
 tags:
     - 个人
@@ -9,14 +9,13 @@ tags:
 
 ## 联系方式
 
-- 手机：18519108512
 - Email：imeoer@gmail.com
 
 ## 个人信息
 
 - 严松/男/1990
 - 本科/西南科技大学/信息安全/软件工程
-- 工作年限：2年
+- 工作时间：3年
 - 博客：http://www.chole.io/blog/
 - Github：https://github.com/imeoer
 - 职位：Web前端/后端/设计/远程
@@ -28,25 +27,38 @@ tags:
 
 - AWS服务PaaS平台IDE：Flex版本AWS云计算平台IDE中后期研发，负责前端界面组件，数据交互与复杂业务逻辑实现。
 
-- 一份难得的互联网创业公司实习经历，收获学习，团队协作，快速开发迭代经验。
+- 一次不错的互联网创业公司实习经历，收获了技术学习，团队协作，快速迭代的经验。
 
-### VisualOps（2013年7月-至今）
+- 技术栈：ActionScript, Flex，Node.js。
+
+### VisualOps（2013年7月-2016年3月）
 
 - [http://www.visualops.io/](http://www.visualops.io/) AWS与OpenStack服务大型SPA应用的研发，参与前期框架搭建，参与主要功能实现与重构开发，后期视觉与交互设计。
 
-- [http://www.cloudfielder.com/](http://www.cloudfielder.com/) CloudFielder云计算资源监控平台，项目Leader，负责全站UI设计，项目管理，自定义语法解析工作。
+- [CloudFielder](https://www.behance.net/gallery/43178375/Cloud-Fielder-Website)云计算资源监控平台，项目Leader，负责全站UI设计，项目管理，自定义语法解析工作。
 
-- 较深入的AWS云平台开发与使用经验，了解云计算资源基础架构与DevOps运维，较大型Web应用开发经验。
+- 较深入的AWS云平台开发与使用经验，了解云计算基础设施与DevOps运维，大型Web应用开发经验。
+
+- 技术栈：CoffeeScript, BackboneJS, EmberJS, jQuery, SASS, RequireJS, Gulp。
+
+### HyperHQ (2016年4月-至今)
+
+- Web端负责人，主导Console与Website项目管理，架构与开发。
+
+- [https://www.hyper.sh/](https://www.hyper.sh/) 主站视觉设计与开发，计费与支付环节设计与开发。
+
+- 技术栈：ES2015, React, Redux, Antd, PostCSS, Babel, Webpack。
 
 ## 业余经历
 
 - Bamboo：撰写阅读内容发布平台：[设计简介](http://www.chole.io/blog/chole-project.html)
 - InkPaper：静态博客构建工具，Golang，[http://www.chole.io/](http://www.chole.io/)
-- Build.go：简单任务自动化工具，Golang，[https://github.com/InkProject/build.go](https://github.com/InkProject/build.go)
+- Chole: 内网映射工具，Golang, Node.js, Vue.js，[https://github.com/imeoer/chole](https://github.com/imeoer/chole)
+- 设计相关：[https://www.behance.net/imeoer](https://www.behance.net/imeoer)
 
 ## 大学经历
 
-- [http://www.chole.io/blog/college-works.html](http://www.chole.io/blog/college-works.html)
+- 业余项目：[http://www.chole.io/blog/college-works.html](http://www.chole.io/blog/college-works.html)
 - 幻境拨号精灵：校园宽带与路由拨号器，加密算法，VisualBasic
 - 任务魔法盒子：IFTTT桌面版，创意，UI与界面实现
 - ARP网络攻击工具：协议与抓包分析，VC++ MFC
@@ -59,25 +71,27 @@ tags:
 
 ### 技术
 
-- VisualBasic/C++/MFC
-- Grunt/Gulp/SASS/RequireJS
-- Node.js/Golang/MySQL/MongoDB
-- Backbone/React/PhoneGap
-- Linux/AWS/Docker
-- Flash，Photoshop，视觉与UI设计
-- AfterEffct，摄影与后期
+- 熟悉
+  - JavaScript, Node.js, Golang
+  - Backbone.js, React, Vue.js及其生态系统
+- 掌握
+  - Linux/AWS/Docker
+  - MongoDB, MySQL
+  - AngularJS, Ionic
+  - VisualBasic/C++/MFC
+  - Photoshop, Illustrator, AfterEffect, 视觉，摄影与后期
 
 ### 生活
 
-- Linux，Atom，Github
-- Trello, Telegram
-- InfoQ，HN，OSChina
+- ArchLinux, Atom, VSCode, Github
+- Trello, Slack, Telegram
+- InfoQ, HackerNews
 - Podcast，V2EX，知乎，G+
 - Behance，Dribbble
 - 36Kr，ProductHunt
 
 ### 兴趣
 
-- ACG，绘画，音乐
-- 视觉与交互设计
-- 关注创业项目，产品设计
+- ACG，美术，绘画，音乐
+- 视觉，交互与文案设计
+- 关注新兴技术与创业项目
