@@ -31,9 +31,9 @@ tags:
 
 ### VisualOps (July 2013 - March 2016)
 
-- [http://www.visualops.io/] (http: //www.visualops.io/) The large-scale SPA web app of AWS and OpenStack service development, participate in framework implementation, major functions development and reconstruction, UI and UX design.
+- [http://www.visualops.io/](http://www.visualops.io/) The large-scale SPA web app of AWS and OpenStack service development, participate in framework implementation, major functions development and reconstruction, UI and UX design.
 
-- [CloudFielder] (https://www.behance.net/gallery/43178375/Cloud-Fielder-Website) AWS service resource monitoring platform, as the project leader, is responsible for UI design, project management, DSL implementation.
+- [CloudFielder](https://www.behance.net/gallery/43178375/Cloud-Fielder-Website) AWS service resource monitoring platform, as the project leader, is responsible for UI design, project management, DSL implementation.
 
 - Experience in the development and use of AWS service, cloud computing infrastructure and DevOps operation and maintenance, and large-scale web app development.
 
@@ -43,24 +43,24 @@ tags:
 
 - Web development leader, project management, architecture and development.
 
-- [https://www.hyper.sh/] (http: //www.hyper.sh/) Visual design and development of website, billing system design.
+- [https://www.hyper.sh/](http://www.hyper.sh/) Visual design and development of website, billing system design.
 
-- Stack: Node.js, Koa, ES2015, React, Redux, Antd, PostCSS, Babel, Webpack.
+- Stack: Node.js, Koa, ES2015, React, Redux, Antd, PostCSS, Babel, Webpack, MongoDB.
 
 ## Side projects
 
-- Bamboo: The content publish platform: [Introduction] (http://www.chole.io/blog/chole-project.html)
-- InkPaper: Static blog generator, Golang, [http://www.chole.io/] (http://www.chole.io/)
-- Chole: A tunnel tool of exposing private network to internet, Golang, Node.js, Vue.js, [https://github.com/imeoer/chole] (https://github.com/imeoer/chole)
-- Design works: [https://www.behance.net/imeoer] (https://www.behance.net/imeoer)
+- Bamboo: The content publish platform: [Introduction](http://www.chole.io/blog/inkpaper-project.html)
+- InkPaper: Static blog generator, Golang, [http://www.chole.io/](http://www.chole.io/)
+- Chole: A tunnel tool of exposing private network to internet, Golang, Node.js, Vue.js, [https://github.com/imeoer/chole](https://github.com/imeoer/chole)
+- Design works: [https://www.behance.net/imeoer](https://www.behance.net/imeoer)
 
 ## University experience
 
-- Works: [http://www.chole.io/blog/college-works.html] (http://www.chole.io/blog/college-works.html)
+- Works: [http://www.chole.io/blog/college-works.html](http://www.chole.io/blog/college-works.html)
 - PPPoE Dialing Tool: Support router, Encryption, VisualBasic
 - Task Magic Box: Like IFTTT desktop version, UI and UX implementation, VC++ MFC
 - ARP Attack Tool: Protocol research and packet capture analysis, VC++ MFC
-- Cluster Performance Monitoring App: Node.js, MFC, [Introduction] (https://drive.google.com/file/d/0B8W2neTuEiYGZDVfN1NxVE5sWTQ/view)
+- Cluster Performance Monitoring App: Node.js, MFC, [Introduction](https://drive.google.com/file/d/0B8W2neTuEiYGZDVfN1NxVE5sWTQ/view)
 - Electronic Signature Platform: Web platform development, UI and front-end implementation, Node.js, Java, MongoDB
 - Create one design and development team: team captain, UI design, AE video editing, site security testing
 - NOC National Network and Information Security Technology Competition first prize, the team leader
@@ -72,14 +72,14 @@ tags:
 - Familiar
   - JavaScript, Node.js, Golang
   - Express.js, Koa, Backbone.js, React, Vue.js and ecosystems
-- Mastery
+- Know
   - Linux / AWS / Docker
-  - MongoDB, MySQL
   - AngularJS, Ionic
+  - MongoDB, MySQL
   - Visual Basic / C++ / MFC
   - Photoshop, Illustrator, AfterEffect, Visual, Photography and Post
 
-### Life
+### Daily Life
 
 - ArchLinux, Atom, VSCode, Github
 - Trello, Slack, Telegram

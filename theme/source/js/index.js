@@ -64,12 +64,13 @@ var initSearch = function() {
   var searchWorker = new Worker(root + '/bundle/searchWorker.js')
   var oriHtml = $('.article-list').html()
   var workerStarted = false
-  var tpl = function(keywords, title, preview, link) {
+  var tpl = function(keywords, title, preview, link, cover) {
     for (var i = 0; i < keywords.length; i++) {
       var keyword = keywords[i]
       var wrap = '<span class="searched">' + keyword + '</span>'
-      title = title.replace(keyword, wrap)
-      preview = preview.replace(keyword, wrap)
+      var reg = new RegExp(keyword, 'ig')
+      title = title.replace(reg, wrap)
+      preview = preview.replace(reg, wrap)
     }
     return searchTpl
     .replace('{{title}}', title)
@@ -83,7 +84,7 @@ var initSearch = function() {
       var retHtml = ''
       for (var i = 0; i < results.length; i++) {
         var item = results[i]
-        var itemHtml = tpl(keywords, item.title, item.preview, item.link)
+        var itemHtml = tpl(keywords, item.title, item.preview, item.link, item.cover)
         retHtml += itemHtml
       }
       $('.page-nav').hide()

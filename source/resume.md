@@ -47,11 +47,11 @@ tags:
 
 - [https://www.hyper.sh/](https://www.hyper.sh/) 主站视觉设计与开发，计费与支付环节设计与开发。
 
-- 技术栈：Node.js, Koa, ES2015+, React, Redux, Antd, PostCSS, Babel, Webpack。
+- 技术栈：Node.js, Koa, ES2015+, React, Redux, Antd, PostCSS, Babel, Webpack, MongoDB。
 
 ## 业余经历
 
-- Bamboo：撰写阅读内容发布平台：[设计简介](http://www.chole.io/blog/chole-project.html)
+- Bamboo：撰写阅读内容发布平台：[设计简介](http://www.chole.io/blog/inkpaper-project.html)
 - InkPaper：静态博客构建工具，Golang，[http://www.chole.io/](http://www.chole.io/)
 - Chole: 内网映射工具，Golang, Node.js, Vue.js，[https://github.com/imeoer/chole](https://github.com/imeoer/chole)
 - 设计相关：[https://www.behance.net/imeoer](https://www.behance.net/imeoer)
@@ -74,14 +74,14 @@ tags:
 - 熟悉
   - JavaScript, Node.js, Golang
   - Express.js, Koa, Backbone.js, React, Vue.js及其生态系统
-- 掌握
+- 了解
   - Linux/AWS/Docker
-  - MongoDB, MySQL
   - AngularJS, Ionic
+  - MongoDB, MySQL
   - VisualBasic/C++/MFC
   - Photoshop, Illustrator, AfterEffect, 视觉，摄影与后期
 
-### 生活
+### 日常
 
 - ArchLinux, Atom, VSCode, Github
 - Trello, Slack, Telegram
