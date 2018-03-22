@@ -2,6 +2,7 @@ title: Resume
 date: 2015-01-01 12:00:00
 update: 2016-10-06 12:00:00
 author: me
+draft: true
 tags:
   - individual
   - job
