@@ -1,6 +1,6 @@
 title: 个人简历
 date: 2015-01-01 12:00:00
-update: 2018-03-22 12:00:00
+update: 2018-03-21 12:00:00
 author: me
 tags:
     - 个人
@@ -23,33 +23,33 @@ tags:
 
 ## 工作经历
 
-### 成都 - Freelancer （2017年12月-至今）
+### 成都 - 远程 （2017年12月-至今）
 
-- 独立项目 UI 设计，SSR 网站，零食货架平台 HTML5 应用研发。
+- 独立 Web 项目开发。
 
-### 北京 - HyperHQ （2016年4月-2017年11月）
+### 北京 - 远程 - HyperHQ （2016年4月-2017年11月）
 
-- [Hyper.sh](https://www.hyper.sh/) 前端负责人，主导 Console、网站项目管理，架构与开发。
+- [Hyper.sh](https://www.hyper.sh/) 前端负责，主导 Console、网站架构与开发，项目管理。
 
 - 主站视觉设计与开发，计费与支付，CLI，[Serverless](https://github.com/hyperhq/faas-hyper)，[Kubernetes](https://github.com/hyperhq/hyper.sh-connector-k8s) 中间件开发。
 
-- 技术栈：Node.js，Golang, Koa, ES2015+, React, Redux, Antd, PostCSS, Babel, Webpack, MongoDB。
+- 技术栈：Node.js，Golang, Koa, ES2015+, React, Antd, PostCSS, Webpack, MongoDB。
 
 ### 北京 - VisualOps（2013年3月 - 2016年3月）
 
-- [VisualOps](http://www.visualops.io/) AWS 与 OpenStack 平台大型 SPA 应用，参与前期框架搭建，界面组件，主要业务实现与重构，后期负责部分 UI & UX 设计。
+- [VisualOps](http://www.visualops.io/) AWS 与 OpenStack 平台大型 SPA 应用，参与前期架构设计，界面组件与主要业务实现与重构，后期负责部分 UI & UX 设计。
 
 - [CloudFielder](https://www.behance.net/gallery/43178375/Cloud-Fielder-Website) 云计算资源监控平台，项目 Leader，负责全站 UI 设计及项目管理，DSL 解析实现。
 
-- 毕业加入的创业公司，从技术、团队协作、项目快速迭代等方面收获了很多。熟悉 AWS 平台开发与使用，云计算基础设施与运维，大型前端应用开发经验。
+- 毕业加入的创业公司，在技术、团队协作、项目快速迭代等方面收获很多。熟悉 AWS 平台基础设施开发与使用，大型前端应用研发。
 
-- 技术栈：ActionScript，Node.js，CoffeeScript, BackboneJS，jQuery，RequireJS, Gulp。
+- 技术栈：CoffeeScript, BackboneJS，Node.js，jQuery，RequireJS, Gulp, ActionScript。
 
 ## 业余独立项目
 
-- UI 设计相关：[https://www.behance.net/imeoer](https://www.behance.net/imeoer)
 - 纸小墨：静态博客构建与写作工具，Golang，Electron，[http://www.chole.io/](http://www.chole.io/)
-- Bamboo：撰写阅读内容发布平台，Backbone.js，Node.js：[设计简介](http://www.chole.io/blog/inkpaper-project.html)
+- UI 设计相关：[https://www.behance.net/imeoer](https://www.behance.net/imeoer)
+- Bamboo：撰写阅读与内容发布平台，Backbone.js，Node.js：[设计简介](http://www.chole.io/blog/inkpaper-project.html)
 - Chole: 内网映射工具，Golang, Node.js, Vue.js，[https://github.com/imeoer/chole](https://github.com/imeoer/chole)
 
 ## 大学独立项目
@@ -66,22 +66,24 @@ tags:
 ## 技术关键字
 
 - 熟悉
+
   - JavaScript, Node.js, Golang
-  - Koa, Electron, Vue.js，React 及其生态系统
+  - Koa, Vue.js，Electron, React 及其生态系统
 
 - 了解
+
   - Linux / AWS / Container
   - Ionic / React Native
   - MongoDB / Nginx / Redis
   - C++ / MFC / VisualBasic
-  - Photoshop, Illustrator, Sketch, After Effect, 美术与后期
+  - Photoshop / Illustrator / Sketch / After Effect / 美术与后期
 
 ## 日常与兴趣
 
 
-- macOS，Arch Linux, VSCode, Github
+- VSCode, Github, macOS，Arch Linux
 - Slack, Trello, Telegram
-- InfoQ, HackerNews，ProductHunt
+- ProductHunt, InfoQ, HackerNews
 - Podcast，V2EX，即刻，Twitter
 - Dribbble，Behance
 - ACG，美术，绘画，音乐
