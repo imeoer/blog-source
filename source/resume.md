@@ -25,25 +25,21 @@ tags:
 
 ### 成都 - 远程 （2017年12月-至今）
 
-- 独立 Web 项目开发。
+- 独立 Web 项目 UI 设计与开发。
 
 ### 北京 - 远程 - HyperHQ （2016年4月-2017年11月）
 
-- [Hyper.sh](https://www.hyper.sh/) 前端负责，主导 Console、网站架构与开发，项目管理。
+- [Function Service](https://docs.hyper.sh/Feature/container/func.html)，[Serverless](https://github.com/hyperhq/faas-hyper)，[Kubernetes](https://github.com/hyperhq/hyper.sh-connector-k8s) 中间件开发。技术栈：Node.js, Koa, Golang, TypeScript, Kafka, MongoDB
 
-- 主站视觉设计与开发，计费与支付，CLI，[Serverless](https://github.com/hyperhq/faas-hyper)，[Kubernetes](https://github.com/hyperhq/hyper.sh-connector-k8s) 中间件开发。
-
-- 技术栈：Node.js，Golang, Koa, ES2015+, React, Antd, PostCSS, Webpack, MongoDB。
+- [Hyper.sh](https://www.hyper.sh/) 前端负责，主导 Console，网站架构，UI，计费支付设计与开发，项目管理。技术栈：Node.js，Koa, ES2015+, React, Antd, PostCSS, Webpack, MongoDB，Illustrator
 
 ### 北京 - VisualOps（2013年3月 - 2016年3月）
 
-- [VisualOps](http://www.visualops.io/) AWS 与 OpenStack 平台大型 SPA 应用，参与前期架构设计，界面组件与主要业务实现与重构，后期负责部分 UI & UX 设计。
+- [VisualOps](http://www.visualops.io/) AWS 与 OpenStack 平台大型 SPA 应用，参与前期架构设计，界面组件与主要业务实现与重构，后期负责部分 UI & UX 设计。技术栈：CoffeeScript, Backbone.js，Node.js，jQuery，RequireJS, Gulp, ActionScript。
 
-- [CloudFielder](https://www.behance.net/gallery/43178375/Cloud-Fielder-Website) 云计算资源监控平台，项目 Leader，负责全站 UI 设计及项目管理，DSL 解析实现。
+- [CloudFielder](https://www.behance.net/gallery/43178375/Cloud-Fielder-Website) 云计算资源监控平台，项目 Leader，负责全站 UI 设计及项目管理，DSL 解析实现。技术栈：Node.js，Express.js，Ember.js, Gulp，Illustrator。
 
 - 毕业加入的创业公司，在技术、团队协作、项目快速迭代等方面收获很多。熟悉 AWS 平台基础设施开发与使用，大型前端应用研发。
-
-- 技术栈：CoffeeScript, BackboneJS，Node.js，jQuery，RequireJS, Gulp, ActionScript。
 
 ## 业余独立项目
 
