@@ -13,21 +13,17 @@ tags:
 
 ## 个人信息
 
-- 男 / 1990 / 5年工作经验（2013-2018）
+- 男 / 1990 / 6年工作经验（2012-2018）
 - 西南科技大学（2009-2013） / 信息安全 & 软件工程 / 本科
 - 博客：http://www.chole.io/blog/
 - Github：https://github.com/imeoer
 - Behance: https://www.behance.net/imeoer
-- 意向职位：前端 / 后端 / UI 设计
-- 城市：成都 （可远程）
+- 意向职位：后端 / 全栈工程师
+- 城市：成都 / 远程
 
 ## 工作经历
 
-### 成都 - 远程 （2017年12月-至今）
-
-- 独立 Web 项目 UI 设计与开发。
-
-### 北京 - 远程 - HyperHQ （2016年4月-2017年11月）
+### 成都 - 远程 - HyperHQ - 全栈工程师 （2016年4月）
 
 - [Function Service](https://docs.hyper.sh/Feature/container/func.html)，[Serverless](https://github.com/hyperhq/faas-hyper)，[Kubernetes](https://github.com/hyperhq/hyper.sh-connector-k8s) 中间件开发。技术栈：Node.js, Koa, Golang, TypeScript, Kafka, MongoDB
 

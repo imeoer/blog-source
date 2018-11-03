@@ -1,6 +1,6 @@
 site:
-    title: 猫叔の杂记 · 手帐
-    subtitle: 代码，美术，音乐与二次元
+    title: 猫叔的杂记 · 手帐
+    subtitle: 代码，设计，与优雅实现
     logo: -/images/avatar.jpg
     limit: 10
     theme: theme
