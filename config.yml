@@ -6,7 +6,7 @@ site:
     theme: theme
     comment: imeoer
     lang: zh
-    url: "http://www.inkpaper.io/blog/"
+    url: "https://imeoer.github.io/blog/"
     root: /blog
 
 authors:

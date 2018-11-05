@@ -8,4 +8,4 @@ author: me
 
 关注代码，美术，音乐与二次元。
 
-[http://www.chole.io/blog](http://www.chole.io/blog)
+[https://imeoer.github.io/blog](https://imeoer.github.io/blog)

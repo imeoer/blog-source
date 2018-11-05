@@ -15,7 +15,7 @@ tags:
 
 - 男 / 1990 / 6年工作经验（2012-2018）
 - 西南科技大学（2009-2013） / 信息安全 & 软件工程 / 本科
-- 博客：http://www.chole.io/blog/
+- 博客：https://imeoer.github.io/blog/
 - Github：https://github.com/imeoer
 - Behance: https://www.behance.net/imeoer
 - 意向职位：后端 / 全栈工程师
@@ -39,14 +39,14 @@ tags:
 
 ## 业余独立项目
 
-- 纸小墨：静态博客构建与写作工具，Golang，Electron，[http://www.chole.io/](http://www.chole.io/)
+- 纸小墨：静态博客构建与写作工具，Golang，Electron，[https://imeoer.github.io/](https://imeoer.github.io/)
 - UI 设计相关：[https://www.behance.net/imeoer](https://www.behance.net/imeoer)
-- Bamboo：撰写阅读与内容发布平台，Backbone.js，Node.js：[设计简介](http://www.chole.io/blog/inkpaper-project.html)
+- Bamboo：撰写阅读与内容发布平台，Backbone.js，Node.js：[设计简介](https://imeoer.github.io/blog/inkpaper-project.html)
 - Chole: 内网映射工具，Golang, Node.js, Vue.js，[https://github.com/imeoer/chole](https://github.com/imeoer/chole)
 
 ## 大学独立项目
 
-- 独立项目：[http://www.chole.io/blog/college-works.html](http://www.chole.io/blog/college-works.html)
+- 独立项目：[https://imeoer.github.io/blog/college-works.html](https://imeoer.github.io/blog/college-works.html)
 - 幻境拨号精灵：西南校园宽带与路由拨号器，加密算法，VisualBasic
 - 任务魔法盒子：IFTTT桌面版，创意，UI 与界面实现，VisualBasic
 - ARP网络攻击工具：协议与抓包分析，Visual C++ MFC
